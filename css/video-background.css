@@ -1,0 +1,388 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0;padding:0;}
+
+
+body
+{
+	 height:1300px;
+	 width:1348px;
+}
+
+video#bgvid
+{
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	height:1300px;
+	min-width:100%;
+	min-height:100%;
+	z-index:-5;
+	background-size:cover;
+}
+
+
+#header
+{
+	position:relative;
+	height:180px;
+	width:100%;
+	z-index:50;
+	background-image:url(../images/header.png);
+	background-size:100% 180px;
+	background-repeat:no-repeat;
+	top:-55px;
+}
+
+
+#links
+{
+z-index:-1;
+width:340px;
+height:210px;
+position:absolute;
+top:440px;
+left:1000px;
+background-color:rgba(81, 85, 87, 0.5);
+box-shadow:0 0 5px 5px #71848D;
+opacity:0.5;
+}
+#footer
+{
+	width:100%;
+	height:80px;
+	position:relative;
+	top:1040px;
+	background-color:rgba(81, 85, 87, 0.5);
+	background-size:120% 150px;
+	background-repeat:no-repeat;
+	opacity:0.5;
+	box-shadow:0 0 5px 5px #71848D;
+}
+
+#footer h5{
+	position:relative;
+	padding:5px;
+	top:45px;
+	left:320px;
+	width:800px;
+	margin:0;
+	font-size:18px;
+	color:white;
+	font-weight:bold;
+	
+}
+
+#footer h3{
+	position:relative;
+	padding:2px;
+	bottom:20px;
+	left:1220px;
+	margin:0;
+	color:#FFF;
+	width:120px;
+}
+
+#footer h6{
+	position:relative;
+	padding:2px;
+	bottom:17px;
+	left:1120px;
+	margin:0;
+	color:#FFF;
+	width:120px;
+}
+
+
+
+#dgp-logo
+{
+	position:absolute;
+	height:90px;
+	margin-left:100px;
+	top:20px;
+}
+
+#technoshine-image
+{
+	position:absolute;
+	height:60px;
+	margin-left:490px;
+	top:15px;
+	
+	
+}
+
+#nit-presents
+{
+	position:absolute;
+	margin-left:380px;
+	top:2px;
+	color:white;
+	font-weight:bold;
+}
+
+
+#social_buttons
+{
+	position:absolute;
+	width:60px;
+	height:180px;
+	top:300px;
+	left:0px;
+	/*background-color:rgba(88,100,105,0.4);*/
+}
+
+#social_buttons img
+{
+	width:50px;
+	height:50px;
+	padding:5px;
+}
+
+#x4
+{
+	position:absolute;
+	margin-left:705px;
+	top:65px;
+	color:white;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight:bolder;
+	font-size:45px;
+}
+
+#x
+{
+	animation: revolve 4s linear infinite normal;
+	-webkit-animation: revolve 4s linear infinite normal;
+	-moz-animation: revolve 4s linear infinite normal;
+	-o-animation: revolve 4s linear infinite normal;
+	-ms-animation: revolve 4s linear infinite normal;
+       
+}
+
+#span-4
+{
+	animation: revolve 4s linear infinite normal;
+	-webkit-animation: revolve 4s linear infinite normal;
+	-moz-animation: revolve 4s linear infinite normal;
+	-o-animation: revolve 4s linear infinite normal;
+	-ms-animation: revolve 4s linear infinite normal;
+     
+}
+
+@keyframes revolve{
+	from{
+		transform:rotateY(0);
+	}
+	to{
+		transform:rotateY(360deg);
+	}
+}
+
+
+@-webkit-keyframes revolve{
+	from{
+		-webkit-transform:rotateY(0);
+	}
+	to{
+		-webkit-transform:rotateY(360deg);
+	}
+}
+
+
+
+@-moz-keyframes revolve{
+	from{
+		-moz-transform:rotateY(0);
+	}
+	to{
+		-moz-transform:rotateY(360deg);
+	}
+}
+
+
+
+@-o-keyframes revolve{
+	from{
+		-o-transform:rotateY(0);
+	}
+	to{
+		-o-transform:rotateY(360deg);
+	}
+}
+
+
+
+@-ms-keyframes revolve{
+	from{
+		-ms-transform:rotateY(0);
+	}
+	to{
+		-ms-transform:rotateY(360deg);
+	}
+}
+
+
+/*FOR LOGIN AND REGISTRATION BUTTON*/
+#login ul {
+	position:relative;
+		margin-top:55px;
+		margin-left:945px;
+		text-align: center;
+		width:400px;
+		height:100px;
+		top:54px;
+	}
+
+#login li {
+		list-style: none;
+		position: relative;
+		display: inline-block;
+		width: 60px;
+		height: 40px;
+		margin-left:50px;
+		margin-bottom:70px;
+	}
+
+	@-moz-keyframes rotate {
+		0% {transform: rotate(0deg);}
+		100% {transform: rotate(-360deg);}
+	}
+
+	@-webkit-keyframes rotate {
+		0% {transform: rotate(0deg);}
+		100% {transform: rotate(-360deg);}
+	}
+
+	@-o-keyframes rotate {
+		0% {transform: rotate(0deg);}
+		100% {transform: rotate(-360deg);}
+	}
+
+	@keyframes rotate {
+		0% {transform: rotate(0deg);}
+		100% {transform: rotate(-360deg);}
+	}
+
+	.round {
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		padding-top: 22px;		
+		text-decoration: none;		
+		text-align: center;
+		font-size: 17px;		
+		text-shadow: 0 1px 0 rgba(255,255,255,.7);
+		letter-spacing: -.065em;
+		font-family: "Hammersmith One", sans-serif;		
+		-webkit-transition: all .25s ease-in-out;
+		-o-transition: all .25s ease-in-out;
+		-moz-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+		box-shadow: 2px 2px 7px rgba(0,0,0,.2);
+		border-radius: 300px;
+		z-index: 1;
+		border-width: 4px;
+		border-style: solid;
+	}
+
+	.round:hover {
+		width: 130%;
+		height: 120%;
+		left: -15%;
+		top: -15%;
+		font-size: 15px;
+		font-weight:bold;
+		padding-top: 38px;
+		-webkit-box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+		-o-box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+		-moz-box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+		box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+		z-index: 2;
+		border-size: 10px;
+		-webkit-transform: rotate(-360deg);
+		-moz-transform: rotate(-360deg);
+		-o-transform: rotate(-360deg);
+		transform: rotate(-360deg);
+	}
+
+	a.red {
+		background-color: rgba(1,151,171,1);
+		color: rgba(255,255,255,1);
+		border-color: rgba(133,32,28,.2);
+	}
+
+	a.red:hover {
+		color:white;
+	}
+
+	a.green {
+		background-color: rgba(1,151,171,1);
+		color: rgba(255,255,255,1);
+		border-color: rgba(133,32,28,.2);
+	}
+
+	a.green:hover {
+		color:white;
+	}
+
+	a.yellow {
+		background-color: rgba(252,227,1,1);
+		color: rgba(153,38,0,1);
+		border-color: rgba(153,38,0,.2);
+	}
+
+	a.yellow:hover {
+		color: rgba(252,227,1,1);
+	}
+
+	.round span.round {
+		display: block;
+		opacity: 0;
+		-webkit-transition: all .5s ease-in-out;
+		-moz-transition: all .5s ease-in-out;
+		-o-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
+		font-size: 1px;
+		border: none;
+		padding: 40% 20% 0 20%;
+		color: #fff;
+	}
+
+	.round span:hover {
+		opacity: .85;
+		font-size: 16px;
+		-webkit-text-shadow: 0 1px 1px rgba(0,0,0,.5);
+		-moz-text-shadow: 0 1px 1px rgba(0,0,0,.5);
+		-o-text-shadow: 0 1px 1px rgba(0,0,0,.5);
+		text-shadow: 0 1px 1px rgba(0,0,0,.5);	
+	}
+
+	.green span {
+		background: rgba(0,63,71,.7);		
+	}
+
+	.red span {
+		background: rgba(0,63,71,.7);		
+	}
+
+	.yellow span {
+		background: rgba(161,145,0,.7);	
+
+	}
+	
+
+
+
+
+	
+
+	
+
+	

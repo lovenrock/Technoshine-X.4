@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin: 0; padding: 0;}
+
+/*whole page size*/ 
+html
+{
+	height:800px;
+}
+
+
+ /*penguin background*/
+body
+{
+	background-image:url(http://cadnitd.co.in/nethunt/image/treasure_back.jpg);	
+	background-repeat:no-repeat;
+	background-size:1365px 800px;
+	
+	
+	/*for mozila older versions*/
+	-moz-background-size:1365px 800px;
+	/*for opera older versions*/
+	-o-background-size:1365px 800px;
+	/*for IE older versions*/
+	-ms-background-size:1365px 800px;
+	/*for SAFARI ana CHROME older versions*/
+	-webkit-background-size:1365px 800px;
+	
+
+}
+ 
+ /*div that contains key to revolve(KEY POSITION)*/
+#key_container       
+{
+
+    width:140px;
+	height:105px;
+	position:absolute;
+	left:670px;
+	top:650px;
+	
+	/*for OPERA 12.1+ , IE 10+ FIREFOX 16+ */
+	transform-origin:left;
+	animation: revolve 4s linear infinite normal;
+	/* for safari 5+ and chrome 10+ */
+	-webkit-transform-origin:left;
+	-webkit-animation: revolve 4s linear infinite normal;
+	/*FOR FIREFOX OLDER VERSION*/
+	-moz-transform-origin:left;
+	-moz-animation: revolve 4s linear infinite normal;
+	/*FOR IE */
+	-ms-transform-origin:left;
+	-ms-animation: revolve 4s linear infinite normal;
+	/*FOR OPERA */
+	-o-transform-origin:left;
+	-o-animation: revolve 4s linear infinite normal;
+}
+
+/*for revolving the key*/
+@keyframes revolve{
+	from{
+		transform:rotateX(0);
+	}
+	to{
+		transform:rotateX(360deg);
+	}
+}
+
+@-webkit-keyframes revolve{
+	from{
+		-webkit-transform:rotateX(0);
+	}
+	to{
+		-webkit-transform:rotateX(360deg);
+	}
+}
+@-moz-keyframes revolve{
+	from{
+		-moz-transform:rotateX(0);
+	}
+	to{
+		-moz-transform:rotateX(360deg);
+	}
+}
+@-o-keyframes revolve{
+	from{
+		-o-transform:rotateX(0);
+	}
+	to{
+		-o-transform:rotateX(360deg);
+	}
+}
+@-ms-keyframes revolve{
+	from{
+		-ms-transform:rotateX(0);
+	}
+	to{
+		-ms-transform:rotateX(360deg);
+	}
+}
+
+ /*key size*/
+#key                                                   
+{
+	width:150px;
+	height:120px;
+}
+/*ARROW POSITION*/
+#arrow
+{
+	position:absolute;
+	left:675px;
+	top:550px;
+	
+}
+/*ARROW SIZE*/
+#arrow_image
+{
+	width:90px;
+	height:100px;
+	opacity:0.6;
+}

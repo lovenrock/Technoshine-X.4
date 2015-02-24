@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {
+				/*background-color: #F4F0EE;*/
+				/*border: 1px solid #ccd;*/
+				width: 600px;
+				height: 225px;
+				padding-top: 25px;
+				margin: -125px 0 0 -300px;
+				overflow: hidden;
+				position: absolute;
+				left:830px ;
+				top: 1030px;;
+				border-radius: 10px;
+			}
+			#carousel > div {
+				width: 440px;
+				padding: 0 100px;
+				height: 225px;
+				float: left;
+				overflow: hidden;
+			}
+			#carousel img {
+				border: none;
+				display: block;
+				margin: 0 25px 30px 0;
+				float: left;
+			}
+			#carousel h3 {
+				font-size: 50px;
+				line-height: 30px;
+				margin: 42px 0 20px 0;
+			}
+
+			#carousel #blue img {
+				margin-top: 50px;
+			}
+			#carousel #pink img {
+				margin-top: 50px;
+			}
+			#carousel #white img {
+				margin-top: 50px;
+			}
+			#carousel #pantaloons img {
+				margin-top: 20px;
+			}
+			
+			#carousel p{
+				color:white;
+				font-size:18px;
+			}
+			
+			
+#sponsors
+{
+	position:absolute;
+	top:800px;
+	left:380px;
+	width:900px;
+	height:400px;
+	background-color:rgba(81, 85, 87, 0.5);
+	box-shadow:0 0 5px 5px #71848D;
+}
+
+#sponsors p{
+	font-size:50px;
+	text-align:center;
+	font-family:"Times New Roman", Times, serif;
+	font-variant:small-caps;
+	
+}
